@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 const Layout = () => {
   return (
     <>
+    <div className='empty'></div>
     <NavBar />
       <section id="banner">
         {/* <img /> */}
