@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import NavBar from './NavBar';
 
 const Layout = () => {
   return (
     <>
-      <div className="empty"></div>
+    <NavBar />
       <section id="banner">
         {/* <img /> */}
         <div className="banner-text">
